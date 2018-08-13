@@ -9,3 +9,7 @@
 4. Docker software, eg: php, node
 5. Docker binaries, eg: tldr, drush
 6. Building development environments
+  - Mounting your own scripts
+  - Mounting your own aliases
+7. Next steps
+  - Kubernetes
