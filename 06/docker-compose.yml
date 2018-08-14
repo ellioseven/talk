@@ -1,0 +1,12 @@
+version: "2"
+services:
+  java:
+    build: "./"
+    user: "1000:1000"
+    working_dir: "/srv/java"
+    privileged: true
+    environment:
+      - "DISPLAY=unix$DISPLAY"
+    volumes:
+      - "./:/srv/java"
+      - "/tmp/.X11-unix:/tmp/.X11-unix"

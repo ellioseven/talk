@@ -11,7 +11,8 @@
 5. Building development environments
   - Mounting your own scripts
   - Mounting your own aliases
-6. Next steps
+6. Building user interfaces
+7. Next steps
   - Kubernetes
 
 ## Prep
